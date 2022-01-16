@@ -5,25 +5,24 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container weather-app">
-          <ul className="list-cities">
-            <li>Tehran</li>
-            <li>London</li>
-            <li>Paris</li>
-            <li>New York</li>
-          </ul>
+          <h1>Weather App</h1>
 
           <form className="searchbar">
-            <input type="search" placeholder="Enter a City" />
-            <input type="submit" value="search" />
+            <input className="pr-5 " type="search" placeholder="Enter a City" />
+            <input className="px-3" type="submit" value="search" />
           </form>
-          <ul>
+          <ul className="description">
             <li className="city-name">Tehran</li>
             <li>Saturday</li>
             <li>Clear</li>
           </ul>
 
           <div className="row">
-            <div className="col p-5 temperatre">10 °C</div>
+            <div className="col p-2 temperature">
+              {" "}
+              <i className="bi bi-brightness-high p-2"></i>
+              10 °C
+            </div>
             <div className="col">
               <ul>
                 <li>Precipitation: 68%</li>
@@ -82,7 +81,12 @@ function App() {
           </div>
         </div>
         <p>
-          <small>Open-source code, by saba Rahrotaban.</small>
+          <small>
+            <a href="https://github.com/sabarht/week-4-react">
+              Open-source code
+            </a>
+            , by saba Rahrotaban.
+          </small>
         </p>
       </header>
     </div>

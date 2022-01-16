@@ -1,5 +1,3 @@
-
-
 ul {
   margin: 16px 0;
 }
@@ -9,7 +7,13 @@ li {
 col {
   text-align: left;
 }
-.temperatre {
+.searchbar input {
+  padding: 8px;
+  margin: 2px;
+  border-radius: 4px;
+}
+
+.temperature {
   font-size: 32px;
   font-weight: 600;
 }
@@ -24,14 +28,16 @@ col {
   text-decoration: none;
 }
 .city-name {
-  font-size: 40px;
+  font-size: 32px;
+  font-weight: 600;
 }
 .weather-app {
-  border: 1px solid #000000;
+  border: 2px solid rgba(187, 155, 231, 0.63);
   border-radius: 12px;
-  padding: 24px;
+  background-color: rgba(248, 244, 253, 0.89);
+  padding: 8px;
   margin: 0 24px;
-  width: 60%;
+  width: 600px;
   font-size: 18px;
 }
 .App {
